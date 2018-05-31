@@ -1,0 +1,77 @@
+/*Universal Styles*/
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("./images/hex-background-image.png");
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #666666;
+    color: lightgray;
+    border-top: 10px solid #4aaaa5;
+    padding: 20px 20px 2px 20px;
+}
+
+/*Navigation*/
+
+#about:hover,
+#portfolio:hover,
+#contact:hover {
+    color: #664AC1;
+}
+
+a:visited {
+    color: currentColor;
+}
+
+/*Main Section*/
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.container-header {
+    color: #4aaaa5;
+}
+
+/*Contact Page - Forms*/
+
+input[type=submit] {
+    color: white;
+    background-color: #4aaaa5;
+}
+
+form {
+    color: #777777;
+}
+
+/*Portfolio Images*/
+
+.portfolio-image:hover {
+    outline: 5px solid #6D44EF;
+    outline-offset: 2px;
+}
+
+.caption {
+    width: 100%;
+    position: relative;
+    top: -30px;
+    margin-bottom: 10px;
+}

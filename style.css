@@ -75,3 +75,7 @@ form {
     top: -30px;
     margin-bottom: 10px;
 }
+
+.portfolio-links {
+    text-decoration: none; 
+}
